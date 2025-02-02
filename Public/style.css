@@ -1,0 +1,403 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+body {
+    background-color: #E6E6FA;
+}
+
+.top-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+    
+}
+
+.right-header button {
+    border-style: none;
+    border-radius: 6px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: purple;
+    color: white;
+}
+
+
+
+.right-header button:hover {
+    transition: 0.3s;
+    background-color: rgba(128, 0, 128, 0.688);
+}
+
+
+.main-header-div {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 150px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    padding: 1rem;
+}
+
+.middle-header {
+    display: flex;
+    gap: 50px;
+}
+
+.middle-header>h3 {
+    display: flex;
+    align-items: center;
+}
+
+
+.right-header {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.left-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-header>h1 {
+    margin: 0;
+}
+
+.middle-header>p {
+    margin: 0;
+}
+
+.right-header>button {
+    margin: 0;
+}
+
+.right-header>span {
+    display: flex;
+    align-items: center;
+}
+
+.main-div {
+    background-color:whitesmoke;
+    padding: 30px 40px; 
+    border-radius: 12px; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px; 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.currency-converter-div {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 30px; 
+}
+
+
+.form1 {
+    margin-bottom: 30px; 
+}
+
+
+.gel-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px; 
+}
+
+.input {
+    width: 180px;
+    padding: 10px;
+    margin-right: 15px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.gelCurrency {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+
+.button {
+    padding: 12px 25px;
+    background-color: purple;
+    color: white;
+    font-size: 18px; 
+    border: none;
+    border-radius: 8px; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: rgba(128, 0, 128, 0.586)
+}
+
+
+.resultDisplay {
+    display: block;
+    margin-top: 30px; 
+    font-size: 22px; 
+    font-weight: bold;
+    color: #333;
+}
+
+
+.div-card-usd {
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    color:green;
+    
+}
+
+.div-card-gbp {
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    color:green;
+}
+
+
+.div-card-uero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+    background-color: whitesmoke;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    color:green;
+}
+
+
+.euro-usd-card {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.middle-card {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.main-faq-card {
+    display: flex;
+    justify-content: center;
+}
+
+.faq-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: beige;
+    width: 70%;
+}
+
+
+
+span {
+    cursor: pointer;
+}
+
+
+
+.footer {
+    display: flex;
+    padding: 100px;
+    justify-content: space-evenly;
+    gap: 150px;
+    background-color: rgb(85, 0, 85);
+}
+
+a {
+    font-size: 1.5rem;
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+    
+}
+
+
+
+
+.left-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.right-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middle-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.faq-card p {
+    display: none;
+}
+
+
+
+.main-faq-card {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.faq-card {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(245, 245, 245, 0.507);
+    width: 80%;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+
+.faq-item-one,
+.faq-item-two,
+.faq-item-three,
+.faq-item-four,
+.faq-item-five {
+    background-color: white;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.faq-item-one:hover,
+.faq-item-two:hover,
+.faq-item-three:hover,
+.faq-item-four:hover,
+.faq-item-five:hover {
+    background-color: #f9f9f9;
+    transform: translateY(-5px);
+}
+
+
+.faq-card h3 {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding-right: 20px;
+}
+
+
+.faq-card h3 span {
+    font-size: 22px;
+    color: #555;
+    transition: transform 0.3s ease;
+}
+
+
+.faq-card p {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+    display: none;
+    padding-left: 20px;
+}
+
+
+.faq-item-one.open p,
+.faq-item-two.open p,
+.faq-item-three.open p,
+.faq-item-four.open p,
+.faq-item-five.open p {
+    display: block;
+}
+
+
+.faq-item-one:hover span,
+.faq-item-two:hover span,
+.faq-item-three:hover span,
+.faq-item-four:hover span,
+.faq-item-five:hover span {
+    color: #4CAF50; 
+}
+
+.div-h1-usd {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div-h1-gbp {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div-h1-euro {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.buy-sell-euro, .buy-sell-gbp, .buy-sell-usd {
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
